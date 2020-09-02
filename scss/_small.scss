@@ -41,7 +41,7 @@ nav a {
     text-decoration: none;
     color: #000
 }
-nav a:hover {background-color: #444;}
+nav a:hover {background-color: lighten($primaryColor, 10%);}
 
 main{display: block; padding: 1rem; max-width: $maxWidth;}
 main h1 {font-weight: $heavyWeight;}
